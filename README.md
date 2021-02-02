@@ -18,19 +18,16 @@ Chenxu's process
       
       cd 20210122; rt3; cd .. 
       
-   This will create four fits files for the flats of the four amps for cam409.
-   pixelflat_cam409_LL.fits  
-   pixelflat_cam409_LU.fits  
-   pixelflat_cam409_RL.fits  
-   pixelflat_cam409_RU.fits
+   This will create four fits files for the flats of the four amps for cam409: pixelflat_cam409_LL.fits, pixelflat_cam409_LU.fits, pixelflat_cam409_RL.fits, pixelflat_cam409_RU.fits
       
   1.4 mask the bad pixels in the flats
       
       /work/05178/cxliu/wrangler/hdr3/flat/Pixel_flat_masks.ipynb
    This jupyter notebook will create the mask file with the format below.
-      cat  /work/05178/cxliu/wrangler/hdr3/flat/pix_mask_cx.tab 
-      amp x1 x2 y1 y2
-      311RU 538 556 755 737
+   
+   cat  /work/05178/cxliu/wrangler/hdr3/flat/pix_mask_cx.tab 
+   amp x1 x2 y1 y2
+   311RU 538 556 755 737
 
 --------------------------------------
 Below is Karl's original readme file
