@@ -1,9 +1,10 @@
 Chenxu's process
 
 1 flats
+
   1.1 the scripts
-      /work/05178/cxliu/wrangler/hdr3/flat/script/*
-      /work/05178/cxliu/wrangler/hdr3/flat/rsetflat
+   /work/05178/cxliu/wrangler/hdr3/flat/script/*
+   /work/05178/cxliu/wrangler/hdr3/flat/rsetflat
       
   1.2 the list to run
       /work/05178/cxliu/wrangler/hdr3/flat/rsetflat0
@@ -18,10 +19,10 @@ Chenxu's process
       cd 20210122; rt3; cd .. 
       
    This will create four fits files for the flats of the four amps for cam409.
-      pixelflat_cam409_LL.fits  
-      pixelflat_cam409_LU.fits  
-      pixelflat_cam409_RL.fits  
-      pixelflat_cam409_RU.fits
+   pixelflat_cam409_LL.fits  
+   pixelflat_cam409_LU.fits  
+   pixelflat_cam409_RL.fits  
+   pixelflat_cam409_RU.fits
       
   1.4 mask the bad pixels in the flats
       
