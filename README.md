@@ -1,3 +1,34 @@
+chenxu's process
+
+1 flats
+  1.1 the scripts
+      /work/05178/cxliu/wrangler/hdr3/flat/script/*
+      /work/05178/cxliu/wrangler/hdr3/flat/rsetflat
+      
+  1.2 the list to run
+      /work/05178/cxliu/wrangler/hdr3/flat/rsetflat0
+      
+  1.3 how to run, take one in rsetflat0 as an example
+      rsetflat 409 016 20210122 7000
+      This will submit two jobs, the first one will go immediately and the second one will go after the first one.
+      Once both jobs are finished, do
+      cd 20210122; rt3; cd .. 
+      This will create four fits files for the flats of the four amps for cam409.
+      pixelflat_cam409_LL.fits  
+      pixelflat_cam409_LU.fits  
+      pixelflat_cam409_RL.fits  
+      pixelflat_cam409_RU.fits
+      
+  1.4 mask the bad pixels in the flats
+      /work/05178/cxliu/wrangler/hdr3/flat/Pixel_flat_masks.ipynb
+      This jupyter notebook will create the mask file with the format below.
+      cat  /work/05178/cxliu/wrangler/hdr3/flat/pix_mask_cx.tab 
+      amp x1 x2 y1 y2
+      311RU 538 556 755 737
+
+--------------------------------------
+Below is Karl's original readme file
+--------------------------------------
 # reduction
 
 1) List of fits files: read all tarfiles from a given month and just
