@@ -24,10 +24,10 @@ Chenxu's process
       
       /work/05178/cxliu/wrangler/hdr3/flat/Pixel_flat_masks.ipynb
    This jupyter notebook will create the mask file with the format below.
-   
-   cat  /work/05178/cxliu/wrangler/hdr3/flat/pix_mask_cx.tab 
-   amp x1 x2 y1 y2
-   311RU 538 556 755 737
+       
+      cat  /work/05178/cxliu/wrangler/hdr3/flat/pix_mask_cx.tab 
+      amp x1 x2 y1 y2
+      311RU 538 556 755 737
 
 --------------------------------------
 Below is Karl's original readme file
