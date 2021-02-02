@@ -3,11 +3,13 @@ Chenxu's process
 1 flats
 
   1.1 the scripts
-   /work/05178/cxliu/wrangler/hdr3/flat/script/*
-   /work/05178/cxliu/wrangler/hdr3/flat/rsetflat
+  
+    /work/05178/cxliu/wrangler/hdr3/flat/script/*
+    /work/05178/cxliu/wrangler/hdr3/flat/rsetflat
       
   1.2 the list to run
-      /work/05178/cxliu/wrangler/hdr3/flat/rsetflat0
+      
+     /work/05178/cxliu/wrangler/hdr3/flat/rsetflat0
       
   1.3 how to run, take one in rsetflat0 as an example
   
